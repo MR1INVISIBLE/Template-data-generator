@@ -1,0 +1,22 @@
+<DataModel name="PASSWORD">
+	<Block name="partOne">
+		<Text value="Accept" mutable="false"/>
+		<Text value=" : " mutable="false"/>
+		<Text value="*/*" mutable="true"/>
+		<Text value="\n\r" mutable="false"/>
+		<Text value="Accept-Encoding"  mutable="false"/>
+		<Text value=" : " mutable="false"/>
+		<Text value="gzip, deflate, br" size="5" mutable="true"/>
+		<Text value="\n\r" mutable="false"/>
+	</Block>
+	<Block name="partTwo">
+		<Text value="Accept" mutable="false"/>
+		<Text value=" : " mutable="false"/>
+		<Text value="*/*" mutable="true"/>
+		<Text value="\n\r" mutable="false"/>
+		<Text value="Accept-Encoding"  mutable="false"/>
+		<Text value=" : " mutable="false"/>
+		<Text value="gzip, deflate, br" size="5" mutable="true"/>
+		<Text value="\n\r" mutable="false"/>
+	</Block>
+</DataModel>

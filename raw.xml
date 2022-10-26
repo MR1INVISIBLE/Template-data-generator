@@ -1,0 +1,32 @@
+<afleach>
+	<DataModel name="USERNAME">
+		<Block name="partOne">
+			<Text name="test1" value="11111" size="5" mutable="false"/>
+		</Block>
+		<Block name="partTwo">
+			<Text name="test1" value="11111" size="5" mutable="false"/>
+		</Block>
+	</DataModel>
+	<DataModel name="PASSWORD">
+		<Block name="partOne">
+			<Text name="test1" value="11111" size="5" mutable="false"/>
+		</Block>
+		<Block name="partTwo">
+			<Text name="test1" value="11111" size="5" mutable="false"/>
+		</Block>
+	</DataModel>
+	<State name="initState">
+		<Action name="USER" mode="output" datamodel="USERNAME"/>
+		<Action name="RESPONSE" mode="input" datamodel="RESPONSE"/>
+		<Action name="PASS" mode="output" datamodel="PASSWORD"/>
+		<Action name="RESPONSE2" mode="input" datamodel="RESPONSE"/>
+	</State>
+	<State name="attack">
+		<Action name="USER" mode="output" datamodel="ATTACK"/>
+		<Action name="RESPONSE" mode="input" datamodel="RESPONSE"/>
+	</State>
+	<Register name="Test">
+		<Debugger name="windbg" value="C:/windbg.exe"/>
+		<State name="initState"/>
+	</Register>
+</afleach>
